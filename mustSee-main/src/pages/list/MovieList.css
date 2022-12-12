@@ -1,0 +1,66 @@
+.movie-container h1 {
+    margin-top: 50px;
+    margin-left: 2%;
+    font-size: 28px;
+    color: red;
+}
+.movie-container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.movie-item-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movies{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #687cbb;
+    line-height:160%;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        zoom: 90%;
+        overflow: hidden;
+    }
+    .movie-container{
+        width: 100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width: 1200px) {
+    body{
+        zoom: 90%;
+        overflow: hidden;
+    }
+    .movie-container{
+        width: 90%;
+        margin-right: 350%;
+    }
+}

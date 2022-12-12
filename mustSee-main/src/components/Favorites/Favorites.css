@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.play-list {
+    width: 30%;
+    border: 3px solid #e7e7e7;
+    margin: 10px 90px 0px 20px;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.movie-card-in-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.search-submit{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.list-name-bar input{
+    margin-bottom: 40px;
+}
+
+.list-button {
+    color: blue;
+    background-color: white;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+
+.remove-button {
+    cursor: pointer;
+    font-size: 0.7rem;
+    background:  #687cbb;
+    color: white;
+    border: 1px solid transparent;
+    height: 25px;
+    margin-top: 7px;
+    padding: 0rem 1.3rem;
+    border-radius: 0.25rem;
+}
+.card-text{
+    justify-content: space-between;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.card-title {
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .play-list {
+        border-top: 0.1px solid #d2e8ff;
+        width: 94%;
+        margin: 0 120px 0px 120px;
+    }
+}
